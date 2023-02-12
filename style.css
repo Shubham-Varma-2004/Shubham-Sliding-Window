@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+    position: sticky;
+    top: 0;
+}
+
+.list li {
+    display: inline;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 14px 16px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 14%;
+}
+
+.list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    background-color: #ac47e7;
+    opacity: 90%;
+    justify-content: space-between;
+}
+
+header nav a img {
+    max-width: 100%;
+    padding: 10px 10px;
+    border-radius: 24px;
+}
+
+#home {
+    background-color: #e9e9e9;
+    text-align: center;
+}
+
+#home img {
+    width: 60%;
+    border-radius: 24px;
+    padding-top: 220px;
+}
+
+#home h1 {
+    font-size: 80px;
+    padding: 12px;
+    padding-top: 180px;
+}
+
+#home form button {
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.call {
+    background-color: #ac47e7;
+}
+
+.submit {
+    background-color: rgb(159, 159, 159);
+}
+
+.call:hover {
+    background-color: #64009e;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #64009e;
+    color: white;
+}
+
+.reviews {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-around;
+}
+
+#testimonials h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.client {
+    display: inline;
+    align-items: center;
+    text-align: center;
+    padding: 48px 28px;
+}
+
+.name {
+    display: flex;
+    justify-content: baseline;
+    font-size: 30px;
+}
+
+.star {
+    display: flex;
+    justify-content: end;
+}
+
+#services {
+    background-color: #e9e9e9;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    padding: 46px;
+    background-color: #e9e9e9;
+}
+
+.stuff {
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 24px;
+    align-items: center;
+    padding: 24px;
+    display: inline-flex;
+    border: 2px solid purple;
+    background-color: rgb(196, 196, 196);
+    color: purple;
+    text-align: center;
+}
+
+#services h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#gallery h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.block {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 6%
+}
+
+.work {
+    padding: 12px;
+}
+
+.work img {
+    max-width: 80%;
+}
+
+#contact {
+    background-color: #e9e9e9;
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.info {
+    display: inline-flex;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6%;
+}
+
+.number {
+    text-align: center;
+}
+
+.number h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.number h3 {
+    padding: 6px 10px;
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    border-radius: 16px;
+    transition: ease-in-out 0.2s;
+}
+
+.direction h4 {
+    text-align: left;
+}
+
+.direction h3 {
+    padding: 6px 10px;
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    transition: ease-in-out 0.2s;
+    border-radius: 16px;
+}
+
+.direction h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.direction h3:hover,
+.number h3:hover {
+    padding: 6px 10px;
+    background-color: #64009e;
+    text-align: center;
+    transition: ease-in-out 0.2s;
+    border-radius: 8px;
+}
+
+.chat {
+    visibility: hidden;
+}
+
+@media (max-width: 800px) {
+    .list li {
+        font-size: 13px;
+        padding: 16px 6px;
+        display: none;
+    }
+
+    header nav a img {
+        max-width: 100%;
+    }
+
+    .chat {
+        border-radius: 100%;
+        visibility: visible;
+    }
+
+    #home img {
+        width: 96%;
+        padding-top: 160px;
+    }
+
+    .reviews {
+        padding: 8% 4%;
+    }
+
+    header nav img {
+        border-radius: 42px;
+    }
+
+    .box {
+        display: block;
+        padding: 26px;
+        text-align: center;
+    }
+
+    .stuff {
+        padding: 12px 12px;
+    }
+
+    .work img {
+        max-width: 100%;
+    }
+
+    .number h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .direction h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .time h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .number h3 {
+        padding: 4px 1px;
+        text-align: center;
+        border-radius: 6px;
+    }
+
+    .direction h3 {
+        padding: 4px 1px;
+        text-align: center;
+        border-radius: 6px;
+    }
+}
